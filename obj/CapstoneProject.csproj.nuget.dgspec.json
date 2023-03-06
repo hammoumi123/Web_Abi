@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hammoua\\Web_Abi\\CapstoneProject.csproj": {}
+    "C:\\Users\\hammoua\\source\\repos\\CapstoneProject\\CapstoneProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hammoua\\Web_Abi\\CapstoneProject.csproj": {
+    "C:\\Users\\hammoua\\source\\repos\\CapstoneProject\\CapstoneProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hammoua\\Web_Abi\\CapstoneProject.csproj",
+        "projectUniqueName": "C:\\Users\\hammoua\\source\\repos\\CapstoneProject\\CapstoneProject.csproj",
         "projectName": "CapstoneProject",
-        "projectPath": "C:\\Users\\hammoua\\Web_Abi\\CapstoneProject.csproj",
+        "projectPath": "C:\\Users\\hammoua\\source\\repos\\CapstoneProject\\CapstoneProject.csproj",
         "packagesPath": "C:\\Users\\hammoua\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hammoua\\Web_Abi\\obj\\",
+        "outputPath": "C:\\Users\\hammoua\\source\\repos\\CapstoneProject\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"

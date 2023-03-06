@@ -8,8 +8,6 @@ namespace CapstoneProject
 
         public string Driver_Surname { get; set; }
 
-        public int  age { get; set; }
-
-        public string Test { get; set; }
+        public int  Age { get; set; }
     }
 }

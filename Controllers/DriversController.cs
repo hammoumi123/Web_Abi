@@ -40,7 +40,7 @@ namespace CapstoneProject.Controllers
 
             Serilog.Log.Information(driverInfo.Driver_Fristname);
             Serilog.Log.Information(driverInfo.Driver_Surname);
-            Serilog.Log.Information(driverInfo.age.ToString());
+            Serilog.Log.Information(driverInfo.Age.ToString());
 
 
 
@@ -48,7 +48,7 @@ namespace CapstoneProject.Controllers
             {
                 streamWriter.WriteLine(driverInfo.Driver_Fristname);
                 streamWriter.WriteLine(driverInfo.Driver_Surname);
-                streamWriter.WriteLine(driverInfo.age);
+                streamWriter.WriteLine(driverInfo.Age);
             }
          
         }
