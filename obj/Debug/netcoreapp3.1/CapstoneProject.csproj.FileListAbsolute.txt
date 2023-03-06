@@ -56,3 +56,6 @@ C:\Users\hammoua\Web_Abi\obj\Debug\netcoreapp3.1\CapstoneProject.csproj.CopyComp
 C:\Users\hammoua\Web_Abi\obj\Debug\netcoreapp3.1\CapstoneProject.dll
 C:\Users\hammoua\Web_Abi\obj\Debug\netcoreapp3.1\CapstoneProject.pdb
 C:\Users\hammoua\Web_Abi\obj\Debug\netcoreapp3.1\CapstoneProject.genruntimeconfig.cache
+C:\Users\hammoua\Web_Abi\bin\Debug\netcoreapp3.1\MELT.dll
+C:\Users\hammoua\Web_Abi\bin\Debug\netcoreapp3.1\MELT.Serilog.dll
+C:\Users\hammoua\Web_Abi\bin\Debug\netcoreapp3.1\Serilog.Extensions.Logging.dll

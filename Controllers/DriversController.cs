@@ -20,29 +20,41 @@ namespace CapstoneProject.Controllers
         {
             _logger = logger;
         }
-
         [HttpGet]
         public IEnumerable<Driver> Get()
         {
-            var rng = new Random();
-            return Enumerable.Range(1, 5).Select(index => new Driver
-            {
-              
-            })
-            .ToArray();
+            var drivers = new List<Driver>
+    {
+        new Driver
+        {
+            Driver_Fristname = "amine",
+            Driver_Surname = "hammoumi",
+            Age = 45
+        },
+        new Driver
+        {
+            Driver_Fristname = "sarah",
+            Driver_Surname = "bastow",
+            Age = 25
+        },
+        new Driver
+        {
+            Driver_Fristname = "Medica",
+            Driver_Surname = "test",
+            Age = 33
+        }
+    };
+
+            return drivers;
         }
 
+
         [HttpPost]
-        public void  Post(string jsonData)
+        public void Post(string jsonData)
         {
-            //In Memory.
             var driverInfo = JsonConvert.DeserializeObject<Driver>(jsonData);
 
-            Serilog.Log.Information(driverInfo.Driver_Fristname);
-            Serilog.Log.Information(driverInfo.Driver_Surname);
-            Serilog.Log.Information(driverInfo.Age.ToString());
-
-
+            _logger.LogInformation("Driver name: {FirstName} {LastName}, Age: {Age}", driverInfo.Driver_Fristname, driverInfo.Driver_Surname, driverInfo.Age);
 
             using (var streamWriter = new System.IO.StreamWriter(@"C:\ProjectFile\text.txt", true))
             {
@@ -50,7 +62,6 @@ namespace CapstoneProject.Controllers
                 streamWriter.WriteLine(driverInfo.Driver_Surname);
                 streamWriter.WriteLine(driverInfo.Age);
             }
-         
         }
     }
 }
