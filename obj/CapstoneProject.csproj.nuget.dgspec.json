@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hammoua\\source\\repos\\CapstoneProject\\CapstoneProject.csproj": {}
+    "C:\\Users\\hammoua\\OneDrive - Hastings Insurance Services Ltd\\Documents\\GitHub\\Web_Abi\\CapstoneProject.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hammoua\\source\\repos\\CapstoneProject\\CapstoneProject.csproj": {
+    "C:\\Users\\hammoua\\OneDrive - Hastings Insurance Services Ltd\\Documents\\GitHub\\Web_Abi\\CapstoneProject.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hammoua\\source\\repos\\CapstoneProject\\CapstoneProject.csproj",
+        "projectUniqueName": "C:\\Users\\hammoua\\OneDrive - Hastings Insurance Services Ltd\\Documents\\GitHub\\Web_Abi\\CapstoneProject.csproj",
         "projectName": "CapstoneProject",
-        "projectPath": "C:\\Users\\hammoua\\source\\repos\\CapstoneProject\\CapstoneProject.csproj",
+        "projectPath": "C:\\Users\\hammoua\\OneDrive - Hastings Insurance Services Ltd\\Documents\\GitHub\\Web_Abi\\CapstoneProject.csproj",
         "packagesPath": "C:\\Users\\hammoua\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hammoua\\source\\repos\\CapstoneProject\\obj\\",
+        "outputPath": "C:\\Users\\hammoua\\OneDrive - Hastings Insurance Services Ltd\\Documents\\GitHub\\Web_Abi\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
