@@ -10,6 +10,6 @@ namespace CapstoneProject
 
         public int  age { get; set; }
 
-        public string status { get; set; }
+        public string Test { get; set; }
     }
 }
