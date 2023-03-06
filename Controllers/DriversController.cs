@@ -42,6 +42,12 @@ namespace CapstoneProject.Controllers
             Driver_Fristname = "Medica",
             Driver_Surname = "test",
             Age = 33
+        },
+          new Driver
+        {
+            Driver_Fristname = "Medica",
+            Driver_Surname = "Partone",
+            Age = 33
         }
     };
 
